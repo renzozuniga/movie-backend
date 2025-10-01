@@ -1,0 +1,45 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# Build / output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Environment / secrets
+.env
+.env.*.local
+.env.local
+secrets.*.json
+
+# Local data files (favorites, local DB, etc.)
+data/
+# If you want to keep the folder but not the file, instead use:
+# data/favorites.json
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.idea/
+
+# Logs
+logs
+*.log
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Misc
+tmp/
+tmp.*
+.cache/
+*.pid
